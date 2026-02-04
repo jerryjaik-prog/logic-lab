@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #1e3a8a;
+  color: white;
+  padding: 15px;
+  position: relative;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.developer {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  font-size: 13px;
+  text-align: right;
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from { text-shadow: 0 0 5px #fff; }
+  to { text-shadow: 0 0 15px #ffeb3b; }
+}
+
+.progress-container {
+  height: 10px;
+  background: #ddd;
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0%;
+  background: #22c55e;
+}
+
+#game {
+  padding: 30px;
+  max-width: 700px;
+  margin: auto;
+}
+
+#options button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  border-radius: 5px;
+}
+
+#options button:hover {
+  background: #2563eb;
+}
+
+#result {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer {
+  background: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
